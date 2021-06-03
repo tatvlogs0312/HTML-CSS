@@ -1,0 +1,16 @@
+h1{
+    color: rgb(38, 136, 115)
+}
+h2{
+    color: rgb(142, 158, 85);
+}
+h3{
+    color: rgb(126, 53, 19);
+}
+.style-box{
+    background-color: rgb(184, 162, 183);
+    font-style: italic;
+}
+.d-flex{
+    display: flex;
+}
