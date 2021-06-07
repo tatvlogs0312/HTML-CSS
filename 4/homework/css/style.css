@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #e9d8f4;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  color: #58257b;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #58257b;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.container {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.flex {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.flex-img {
+  width: 300px;
+  height: 170px;
+}
+.container {
+  float: left;
+  padding: 10px;
+}
+
+/* Cột bên trái và phải */
+.container.side {
+  width: 25%;
+}
+.poster {
+  display: block;
+  background-color: white;
+  text-align: center;
+
+}
+.img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Cột chính giữa */
+.container.middle {
+    display: block; 
+    width: 50%;
+    margin-left: 200px;
+
+}
+
+/* Footer */
+.footer {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background: white;
+  margin-top: 10px;
+}
