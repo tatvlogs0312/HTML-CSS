@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: Helvetica, sans-serif;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  color: black;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo a{
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  font-style: italic;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+  color: gray ;
+  padding: 14px 25px;
+  text-decoration: none;
+  border: 1px solid;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.section-heading {
+  font-weight: 200;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin: 0;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #f5f5f5;
+    padding: 15px;
+    justify-content: space-between;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category {
+  flex-basis: 45%;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+  margin: 1px;
+}
+
+.category-thumbnail {
+  width: 300px;
+  margin-bottom: 10px;
+}
+.category-description {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.8);
+}
+.utility {
+  margin-top: 7px;
+}
+
+.utility p {
+  color: #333;
+  font-size: 12px;
+  line-height: 19px;
+  display: flex;
+}
+.images {
+    display: flex;
+}
+
+.keywords {
+    display: flex;  
+}
+
+.keyword {
+    border-right: 2px solid #f5f5f5;
+    text-align: center;
+}
+.big-image{
+  flex-basis: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+  background-color: black;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
